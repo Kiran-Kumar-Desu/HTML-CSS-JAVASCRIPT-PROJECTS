@@ -1,16 +1,17 @@
 # HTML-CSS-JAVASCRIPT-PROJECTS
 
 # Some Git Commands
-Git init
-echo "# add text" >> README.md
+# create a new repository on the command line
+echo "# materializecss-practice" >> README.md
+git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add https://github.com/Kiran-Kumar-Desu/HTML-CSS-JAVASCRIPT-PROJECTS.git (Remote repo)
+git remote add origin https://github.com/Kiran-Kumar-Desu/materializecss-practice.git
 git push -u origin main
 
-# if you want to sync with local project
-Git init
-git remote add https://github.com/Kiran-Kumar-Desu/HTML-CSS-JAVASCRIPT-PROJECTS.git (Remote repo)
-git pull <remote> main
+
+# push an existing repository from the command line
+git remote add origin https://github.com/Kiran-Kumar-Desu/materializecss-practice.git
+git branch -M main
 git push -u origin main
